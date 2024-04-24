@@ -1,0 +1,100 @@
+.event-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.certificate-title {
+    position: relative;
+    font-size: 2rem;
+    bottom: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    left: 16rem;
+}
+
+
+.certificate-pic img {
+    height: 30rem;
+    width: 60rem;
+    position: relative;
+    bottom: 3.1rem;
+}
+
+
+.event-container {
+    position: relative;
+
+}
+
+.first-text {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.second-text {
+    font-size: 1.5rem;
+    color: mediumorchid;
+    font-weight: bold;
+}
+
+.meraki {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: system-ui;
+
+}
+
+/* event-style */
+.event-containers {
+    width: 100%;
+    /* margin-top: 8rem; */
+    background: linear-gradient(0deg, #61e0ce, #ffffff);
+}
+
+.event-sub-containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 5px;
+}
+
+.event-all {
+    height: 45rem;
+    width: 21.88rem;
+    padding: 0px 7px;
+    font-family: emoji;
+    background: white;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 9rem;
+    border-radius: 0.2rem;
+    margin: 15px 15px;
+
+}
+
+.event-all img {
+    height: 12rem;
+    width: 22rem;
+    margin-left: -0.49rem;
+}
+
+.paragraph {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    color: brown;
+}
+
+.event-names {
+    margin-top: 1rem;
+}
+
+.event-all:hover {
+
+    transition: all 0.7s ease-in-out;
+    transform: translateY(00.7rem);
+}
